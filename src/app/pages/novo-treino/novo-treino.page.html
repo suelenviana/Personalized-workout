@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Novo Treino</ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button menu="main-menu"></ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+ <ion-card>
+  <ion-item >
+    <ion-input placeholder="Informe o nome do Treino"></ion-input>
+  </ion-item>
+ </ion-card>
+    
+
+ <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+  <ion-fab-button>
+    <ion-icon name="list"></ion-icon>
+  </ion-fab-button>
+  <ion-fab-list side="top">
+    <ion-fab-button><ion-icon name="add"></ion-icon></ion-fab-button>
+  </ion-fab-list>
+  <ion-fab-list side="start">
+    <ion-fab-button><ion-icon name="save"></ion-icon></ion-fab-button>
+  </ion-fab-list>
+</ion-fab>
+
+</ion-content>
