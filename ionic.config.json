@@ -1,0 +1,7 @@
+{
+  "name": "personalized-workout",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
