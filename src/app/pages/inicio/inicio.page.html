@@ -21,15 +21,15 @@
 
 
 <ion-row id="botoes-inicio" border_horizontal="business_center">
-  <ion-card id="teste" (click)="goToTreinos()">
+  <ion-card (click)="goToTreinos()">
     <ion-card-header>
       <ion-card-title>Treinos</ion-card-title>
   </ion-card-header>
   </ion-card>
 
-  <ion-card id="teste" (click)="goToNovoTreino()">
-    <ion-card-header>
-      <ion-card-title id="teste2">Novo Treino</ion-card-title>
+  <ion-card>
+    <ion-card-header (click)="goToNovoTreino()">
+      <ion-card-title>Novo Treino</ion-card-title>
     </ion-card-header>
   </ion-card>
 </ion-row>
